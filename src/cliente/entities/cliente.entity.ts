@@ -1,5 +1,5 @@
 export class Cliente {
-  id: number;
+  id: string;
   nome: string;
   endereco: string;
   cnpj: string;
@@ -7,7 +7,7 @@ export class Cliente {
   email: string;
 
   constructor(
-    id: number,
+    id: string,
     nome: string,
     endereco: string,
     cnpj: string,
@@ -21,4 +21,5 @@ export class Cliente {
     this.telefone = telefone;
     this.email = email;
   }
+  
 }
